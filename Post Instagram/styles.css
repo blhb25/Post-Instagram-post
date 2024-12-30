@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal de la publicación */
+.post {
+    background-color: #fff;
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabecera del post */
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.post-logo img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.post-user {
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+.post-user h4 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.post-user p {
+    margin: 0;
+    color: #777;
+    font-size: 12px;
+}
+
+.post-options {
+    font-size: 20px;
+    cursor: pointer;
+    color: #777;
+}
+
+/* Imagen principal */
+.post-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Acciones debajo de la imagen */
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.actions-left span,
+.actions-right span {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Likes y descripción */
+.post-likes {
+    padding: 0 10px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.post-caption {
+    padding: 0 10px 10px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
